@@ -1,0 +1,23 @@
+[project]
+name = "python-katas"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "salmayousri",email = "salmayousri@hotmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.12.12"
+black = "^25.1.0"
+pytest = "^8.4.2"
+pre-commit = "^4.3.0"
+
